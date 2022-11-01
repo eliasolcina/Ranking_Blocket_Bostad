@@ -46,8 +46,8 @@ When the user runs the program, he or she will be presented with six questions:
 - Rent per square meters
 
 #### Variables created using the Google Directions API:
-- Distance from rental object to city centre in area (in kilometers)
-- Travel time to Stockholm City by public transport
+- Distance from rental object to city centre in the area (in kilometers)
+- Travel time to city centre in the area by public transport
 
 #### Three ranking variables in the dataframe:
 - Rent/sqm_rank: Creating 10 quantiles out of the rent/sqm, where the lowest == 1 and highest == 10
