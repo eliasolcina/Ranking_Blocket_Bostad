@@ -12,8 +12,7 @@ That is, the program scrapes relevant rental objects for the user, and ranks the
  - How much rent you pay per square meter
  - Proximity to city centre in terms of access with public transport
 
-
-Selenium is used on the website to get around cookie-popups and also allows the program to press "next page" when there are many results, BeautifulSoup is used to create a "soup" out of all of the html-code and the Google Directions API was later used to calculate distances from rental objects to city centre in km and minutes by public transport.
+Selenium is used to get around cookie-popups and press the "next page" button on the website, BeautifulSoup is used to actually retrieve the html-code and the Google Directions API calculated distances from rental objects to city centre (in kilometers and in minutes by public transport).
 
 ### Screenshot from the Blocket Bostad website:
 Below is a screenshot from the Blocket Bostad website where there are two rental objects visible. The program scrapes the information from each and every one of these objects.
