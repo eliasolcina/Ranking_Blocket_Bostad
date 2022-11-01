@@ -7,6 +7,12 @@ all of the objects on Blocket Bostad based on five filtering options and creates
 
 Some of the information is used for further analysis, where the information gets ranked on different criteria, and all of the listing are later ranked based on the rank sum.
 
+To summarize, the program scrapes relevant rental objects for the user, and ranks them based on three critera: 
+ - How well the move in date for the rental object fits the users preference
+ - How much rent you pay per square meter
+ - Proximity to city centre in terms of access with public transport
+
+
 Selenium is used on the website to get around cookie-popups and also allows the program to press "next page" when there are many results, BeautifulSoup is used to create a "soup" out of all of the html-code and the Google Directions API was later used to calculate distances from rental objects to city centre in km and minutes by public transport.
 
 ### Screenshot from the Blocket Bostad website:
@@ -62,4 +68,4 @@ The sum of these three ranking variables are stored in df['rank_sum'], and the r
   alt="Data Frame Screenshot"
   title="Data Fame Screenshot">
 
-As you can see in the output above, all of the rankings have been summarized in rank_sum and can therefore be used as a column to sort the the objects in terms of attractiveness.
+As you can see in the output above, all of the rankings have been summarized in rank_sum and can therefore be used as a column to sort the the objects in terms of attractiveness for the user.
