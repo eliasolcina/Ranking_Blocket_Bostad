@@ -7,7 +7,7 @@ all of the objects on Blocket Bostad based on five filtering options and creates
 
 Some of the information is used for further analysis, where the information gets ranked on different criteria, and all of the listing are later ranked based on the rank sum.
 
-To summarize, the program scrapes relevant rental objects for the user, and ranks them based on three critera: 
+That is, the program scrapes relevant rental objects for the user, and ranks them based on three critera: 
  - How well the move in date for the rental object fits the users preference
  - How much rent you pay per square meter
  - Proximity to city centre in terms of access with public transport
