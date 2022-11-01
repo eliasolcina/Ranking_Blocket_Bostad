@@ -7,6 +7,9 @@ all of the objects on Blocket Bostad based on a couple of filtering options and 
 
 Some of the information is used for further analysis, where the information gets ranked on different critera, and all of the listing are later ranked based on so called the rank sum.
 
+Selenium was used on the website to get around cookie popups and also allowed the program to press "next page", BeautifulSoup was used to create a "soup"
+out of all of the html-code and the Google Directions API was later used to calculate distances from rental objects to city centre.
+
 ### Screenshot from the Blocket Bostad website:
 <img
   src="/blocketbostad_screenshot.png"
