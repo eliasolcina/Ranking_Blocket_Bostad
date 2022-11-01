@@ -18,6 +18,16 @@ out of all of the html-code and the Google Directions API was later used to calc
   height = "600"
   width = "500" >
 
+## Filtering options for the user
+When the user runs the program, he or she will be presented with six questions that are going to be used to filter the objects on Blocket Bostad, as well as be a part of the ranking logic. The six questions are the following:
+
+- When do you want to move in to the rental object?
+- In what area are you looking for an apartment?
+- Are you looking for a private or a shared apartment, or both?
+- Are you looking for a furnished or an unfurnished apartment, or both?¨
+- What is the minimal amount of rooms you are looking for?
+- What is your max rent per month?
+
 ## Variable information:
 #### Scraped variables:
 - Address
@@ -49,3 +59,5 @@ The sum of these three ranking variables are stored in df['rank_sum'], and the r
   src="/df_screenshot.png"
   alt="Data Frame Screenshot"
   title="Data Fame Screenshot">
+
+As you can see in the output above, all of the rankings have been summarized in rank_sum and can therefore be used as a column to sort the the objects in terms of attractiveness.
