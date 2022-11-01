@@ -24,9 +24,9 @@ Below is a screenshot from the Blocket Bostad website where there are two rental
 When the user runs the program, he or she will be presented with six questions:
 
 - When do you want to move in to the rental object?
-- In what area are you looking for an apartment?
-- Are you looking for a private or a shared apartment, or both?
-- Are you looking for a furnished or an unfurnished apartment, or both?¨
+- In what area are you looking for a rental?
+- Are you looking for a private or a shared rental, or both?
+- Are you looking for a furnished or an unfurnished rental, or both?¨
 - What is the minimal amount of rooms you are looking for?
 - What is your max rent per month?
 
