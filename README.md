@@ -5,7 +5,7 @@
 Blocket Bostad is one of Sweden's biggest websites for publishing rental objects. In this project, the application scrapes 
 all of the objects on Blocket Bostad based on a couple of filtering options and creates a pandas dataframe from the information.
 
-Some of the information is used for further analysis, where the information gets ranked on different critera, and all of the listing are later ranked based on so called the rank sum.
+Some of the information is used for further analysis, where the information gets ranked on different criteria, and all of the listing are later ranked based on so called the rank sum.
 
 Selenium was used on the website to get around cookie popups and also allowed the program to press "next page", BeautifulSoup was used to create a "soup"
 out of all of the html-code and the Google Directions API was later used to calculate distances from rental objects to city centre.
