@@ -8,7 +8,8 @@ all of the objects on Blocket Bostad based on a couple of filtering options and 
 Some of the information is used for further analysis, where the information gets ranked on different critera, and all of the listing are later ranked based on so called the rank sum.
 
 ### Screenshot from the Blocket Bostad website:
-![Blocket Bostad Screenshot](blocketbostad_screenshot.png)
-
-<img src="/blocketbostad_screenshot.png" alt="Alt text" title="Optional title">
-
+<img
+  src="/blocketbostad_screenshot.png"
+  alt="Blocket Bostad Screenshot"
+  title="Blocket Bostad Screenshot"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
