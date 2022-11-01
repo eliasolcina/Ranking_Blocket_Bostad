@@ -1,7 +1,7 @@
 # Ranking Blocket Bostad
 ### *Scraping  and Ranking Rental Objects from Blocket Bostad in Python using Selenium, BeautifulSoup and the Google Directions API.*
 
-### Summary of the project
+## Summary of the project
 Blocket Bostad is one of Sweden's biggest websites for publishing rental objects. In this project, the application scarpes 
 all of the objects on Blocket Bostad based on a couple of filtering options and creates a pandas dataframe from the information.
 
@@ -18,8 +18,8 @@ out of all of the html-code and the Google Directions API was later used to calc
   height = "600"
   width = "500" >
 
-### Variable information
-#### Scraped variables
+## Variable information:
+#### Scraped variables:
 - Address
 - Area
 - Type
@@ -29,11 +29,11 @@ out of all of the html-code and the Google Directions API was later used to calc
 - Move out date
 - Rent in SEK per month
 
-#### Variables created from scraped data
+#### Variables created from scraped data:
 - Address + area in one string
 - Rent per square meters
 
-#### Variables created using the Google Directions API
+#### Variables created using the Google Directions API:
 - Distance from rental object to city centre in area (in kilometers)
 - Travel time to Stockholm City by public transport
 
@@ -43,3 +43,9 @@ out of all of the html-code and the Google Directions API was later used to calc
 - Distance_time_rank: Creating 10 quantiles out of the travel time to city centre with public transport, where the lowest == 1 and highest == 10
 
 The sum of these three ranking variables are stored in df['rank_sum'], and the rental object with the lowest rank_sum is considered the "best" object based on these attributes.
+
+## Screenshot of the output
+<img
+  src="/df_screenshot.png"
+  alt="Data Frame Screenshot"
+  title="Data Fame Screenshot">
