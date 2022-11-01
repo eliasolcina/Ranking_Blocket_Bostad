@@ -2,13 +2,12 @@
 ### *Scraping  and Ranking Rental Objects from Blocket Bostad in Python using Selenium, BeautifulSoup and the Google Directions API.*
 
 ## Summary of the project
-Blocket Bostad is one of Sweden's biggest websites for publishing rental objects. In this project, the application scrapes 
-all of the objects on Blocket Bostad based on a couple of filtering options and creates a pandas dataframe from the information.
+Blocket Bostad is one of Sweden's largest websites for publishing rental objects. In this project, the application scrapes 
+all of the objects on Blocket Bostad based on a couple of filtering options and creates a dataframe from the information.
 
-Some of the information is used for further analysis, where the information gets ranked on different criteria, and all of the listing are later ranked based on so called the rank sum.
+Some of the information is used for further analysis, where the information gets ranked on different criteria, and all of the listing are later ranked based on the rank sum.
 
-Selenium was used on the website to get around cookie popups and also allowed the program to press "next page", BeautifulSoup was used to create a "soup"
-out of all of the html-code and the Google Directions API was later used to calculate distances from rental objects to city centre.
+Selenium is used on the website to get around cookie-popups and also allows the program to press "next page" when there are many results, BeautifulSoup is used to create a "soup" out of all of the html-code and the Google Directions API was later used to calculate distances from rental objects to city centre in km and minutes by public transport.
 
 ### Screenshot from the Blocket Bostad website:
 <img
@@ -19,7 +18,7 @@ out of all of the html-code and the Google Directions API was later used to calc
   width = "500" >
 
 ## Filtering options for the user
-When the user runs the program, he or she will be presented with six questions that are going to be used to filter the objects on Blocket Bostad, as well as be a part of the ranking logic. The six questions are the following:
+When the user runs the program, he or she will be presented with six questions:
 
 - When do you want to move in to the rental object?
 - In what area are you looking for an apartment?
