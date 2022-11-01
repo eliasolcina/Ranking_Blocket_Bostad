@@ -12,5 +12,5 @@ Some of the information is used for further analysis, where the information gets
   src="/blocketbostad_screenshot.png"
   alt="Blocket Bostad Screenshot"
   title="Blocket Bostad Screenshot"
-  height = "200"
-  width = "220" >
+  height = "600"
+  width = "600" >
