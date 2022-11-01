@@ -3,7 +3,7 @@
 
 ## Summary of the project
 Blocket Bostad is one of Sweden's largest websites for publishing rental objects. In this project, the application scrapes 
-all of the objects on Blocket Bostad based on a couple of filtering options and creates a dataframe from the information.
+all of the objects on Blocket Bostad based on five filtering options and creates a dataframe from the information.
 
 Some of the information is used for further analysis, where the information gets ranked on different criteria, and all of the listing are later ranked based on the rank sum.
 
