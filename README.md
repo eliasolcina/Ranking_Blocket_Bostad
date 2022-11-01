@@ -9,3 +9,6 @@ Some of the information is used for further analysis, where the information gets
 
 ### Screenshot from the Blocket Bostad website:
 ![Blocket Bostad Screenshot](/Users/eliasolcina/Documents/GitHub/Ranking_Blocket_Bostad/blocketbostad_screenshot.png)
+
+<img src="/Users/eliasolcina/Documents/GitHub/Ranking_Blocket_Bostad/blocketbostad_screenshot.png" alt="Alt text" title="Optional title">
+
