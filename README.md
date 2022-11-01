@@ -5,5 +5,7 @@
 Blocket Bostad is one of Sweden's biggest websites for publishing rental objects. In this project, the application scarpes 
 all of the objects on Blocket Bostad based on a couple of filtering options and creates a pandas dataframe from the information.
 
-Some of the information is used for further analysis, where relevant information gets ranked on different critera, and all of the listing are ranked based on
-the rank sum.
+Some of the information is used for further analysis, where the information gets ranked on different critera, and all of the listing are later ranked based on so called the rank sum.
+
+### Screenshot from the Blocket Bostad website:
+https://imgur.com/a/3nYoGq5
