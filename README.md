@@ -50,9 +50,9 @@ When the user runs the program, he or she will be presented with six questions:
 - Travel time to city centre in the area by public transport
 
 #### Three ranking variables in the dataframe:
-- Rent/sqm_rank: Creating 10 quantiles out of the rent/sqm, where the lowest == 1 and highest == 10
-- Move_in_difference_rank: Number of days between the move in date and the desired move in date specified by the user, divided by ten and rounded to the closest integer
-- Distance_time_rank: Creating 10 quantiles out of the travel time to city centre with public transport, where the lowest == 1 and highest == 10
+- Rent/sqm_rank: Creating 10 quantiles out of the rent/sqm, where the lowest == 1 and highest == 10.
+- Move_in_difference_rank: Number of days between the move in date and the desired move in date specified by the user, divided by 10 and rounded to the closest integer. This technique was used since rental objects specify move in date as "ASAP", which all converts to the same number of days. When the data is not (fairly) well distributed, quantiles are useless whereas the applied technique resulted in a "fair" rank.
+- Distance_time_rank: Creating 10 quantiles out of the travel time to city centre with public transport, where the lowest == 1 and highest == 10.
 
 The sum of these three ranking variables are stored in df['rank_sum'], and the rental object with the lowest rank_sum is considered the "best" object based on these attributes.
 
