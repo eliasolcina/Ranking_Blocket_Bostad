@@ -12,4 +12,4 @@ Some of the information is used for further analysis, where the information gets
   src="/blocketbostad_screenshot.png"
   alt="Blocket Bostad Screenshot"
   title="Blocket Bostad Screenshot"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
