@@ -34,7 +34,7 @@ When the user runs the program, he or she will be presented with six questions:
 #### Scraped variables:
 - Address
 - Area
-- Type
+- Accomodation type (house, apartment, room in apartment, etc.)
 - Rooms
 - Size in square meters
 - Move in date
