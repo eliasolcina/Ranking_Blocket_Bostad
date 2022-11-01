@@ -1,4 +1,4 @@
-# Ranking Blocket Bostad
+# Ranking Objects on Blocket Bostad
 ### *Scraping  and Ranking Rental Objects from Blocket Bostad in Python using Selenium, BeautifulSoup and the Google Directions API.*
 
 ## Summary of the project
